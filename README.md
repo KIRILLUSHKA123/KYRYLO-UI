@@ -24,29 +24,37 @@
 * ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/7946c5fe-3348-4ed6-bb1c-74d7933269ce)
 * **Create** your first window:
 ```lua
+-- Services
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 
+-- Variables
 local LocalPlayer = Players.LocalPlayer
 
+-- Modules
 local KUI = require(ReplicatedStorage.KUI_Library)
 
+-- Init
 KUI.Init(LocalPlayer.PlayerGui,50,20)
 
-local Window = KUI.Window.new("Test1")
+-- Test1 window
+local Window = KUI.Window.new("Test1") -- create new window
 
-Window:Show()
+Window:Show() -- show your window
 
-Window:SetCorner(10)
-Window:SetHeader("Test Window",{true,"close"})
+-- Custom
+Window:SetCorner(10) -- set corner of your window
+Window:SetHeader("Test Window",{true,"close"}) -- set/add header for your window
 
+-- Lines
 local firstLine = KUI.Line.new("MyFirstLine",3)
 local secondLine = KUI.Line.new("MySecondLine",2)
 
 Window:SetLines( { firstLine, secondLine } )
 
-local nameInput = KUI.InputText.new("Your Name:")
-local changeNameButton = KUI.Button.new("Change Name")
+-- Components
+local nameInput = KUI.InputText.new("Your Name:") -- create new input text
+local changeNameButton = KUI.Button.new("Change Name") -- create new button
 
 nameInput:SetSizeOperator(8)
 changeNameButton:SetSizeOperator(5)
