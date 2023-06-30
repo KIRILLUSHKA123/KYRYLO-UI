@@ -29,11 +29,13 @@ local Players = game:GetService("Players")
 
 local LocalPlayer = Players.LocalPlayer
 
-local KUI = require(ReplicatedStorage.KUI_Library)
+local KUI = require(ReplicatedStorage.KUI_Library,50,20)
 
 KUI.Init(LocalPlayer.PlayerGui,50,20)
 
 local Window = KUI.Window.new("Test1")
+
+Window:Show()
 
 Window:SetCorner(10)
 Window:SetHeader("Test Window",{true,"close"})
