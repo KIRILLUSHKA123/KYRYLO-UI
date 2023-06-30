@@ -54,6 +54,9 @@ changeNameButton:SetSizeOperator(5)
 firstLine:AddComponent( nameInput )
 secondLine:AddComponent( changeNameButton )
 ```
+* Final! You create your first window with KYRYLO-UI!
+* ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/17f8209f-e45b-4f6d-953d-ad60d79f9075)
+
 
 ## Contributing
 * **Discord**: @kyrylo.
