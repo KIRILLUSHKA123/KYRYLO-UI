@@ -17,10 +17,41 @@
 
 
 ## Installation
+* **Download** <a href="https://github.com/KIRILLUSHKA123/KYRYLO-UI/edit/main/README.md">any release of KYRYLO-UI</a>
+* **Place** this module script in **ReplicatedStorage**
+* ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/5dc4d278-8f4d-44c0-8152-56d5911cb06b)
+* **Create** new local script in **StarterPlayerScripts** or **StarterGui**
+* ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/7946c5fe-3348-4ed6-bb1c-74d7933269ce)
+* **Create** your first window:
+```lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
 
+local LocalPlayer = Players.LocalPlayer
 
-## Releases
+local KUI = require(ReplicatedStorage.KUI_Library)
 
+KUI.Init(LocalPlayer.PlayerGui,50,20)
+
+local Window = KUI.Window.new("Test1")
+
+Window:SetCorner(10)
+Window:SetHeader("Test Window",{true,"close"})
+
+local firstLine = KUI.Line.new("MyFirstLine",3)
+local secondLine = KUI.Line.new("MySecondLine",2)
+
+Window:SetLines( { firstLine, secondLine } )
+
+local nameInput = KUI.InputText.new("Your Name:")
+local changeNameButton = KUI.Button.new("Change Name")
+
+nameInput:SetSizeOperator(8)
+changeNameButton:SetSizeOperator(5)
+
+firstLine:AddComponent( nameInput )
+secondLine:AddComponent( changeNameButton )
+```
 
 ## Contributing
 * **Discord**: @kyrylo.
