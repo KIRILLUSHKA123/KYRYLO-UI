@@ -29,7 +29,7 @@ local Players = game:GetService("Players")
 
 local LocalPlayer = Players.LocalPlayer
 
-local KUI = require(ReplicatedStorage.KUI_Library,50,20)
+local KUI = require(ReplicatedStorage.KUI_Library)
 
 KUI.Init(LocalPlayer.PlayerGui,50,20)
 
