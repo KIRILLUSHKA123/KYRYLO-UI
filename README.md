@@ -1,5 +1,3 @@
-![Releases](https://github.com/KIRILLUSHKA123/KYRYLO-UI/edit/main/README.md)
-
 # KYRYLO-UI
 **KYRYLO-UI** is a library for the Roblox Studio engine, written in the Luau language. With KYRYLO-UI, developers can create interfaces for their games quickly and easily. This library aims to simplify the process of UI development by providing a set of intuitive and efficient tools.
 
