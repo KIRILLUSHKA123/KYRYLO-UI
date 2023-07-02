@@ -15,6 +15,7 @@ KUI.Init(LocalPlayer.PlayerGui,50,20)
 ```
 ```
 Parameters:
+
 1 | object | PlayerGui
 2 | number | Line width in offset
 3 | number | Blur size
@@ -22,13 +23,21 @@ Parameters:
 
 ## Component: Window
 ```lua
-local Window = KUI.Window.new("Test1")
+local Window = KUI.Window.new( <string> name )
 ```
 ```
-Parameters:
-1 | string | Name
-```
-```
-Methods:
+:Show()
+>>> Window
 
+:Hide()
+>>> Window
+
+:Close()
+>>> Window
+
+:BindAction( <string> action (show/hide/close) , <string> inputType (began/ended) , <Enum.KeyCode> keyboardBind )
+>>> true or false
+
+:UnbindAction( <string> action (show/hide/close) , <string> inputType (began/ended) )
+>>> true or false
 ```
