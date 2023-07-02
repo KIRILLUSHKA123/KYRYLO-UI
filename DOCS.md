@@ -20,9 +20,11 @@ local Window = KUI.Window.new( <string> name )
 ```
 ```lua
 METHODS:
-
 :GetCurrentPage()
 >>> <number> CurrentPage
+
+:SetHeader( <string> title , <table> closeButtonInfo )
+>>> <object> 
 
 :SetTitle( <string> newTitle )
 >>> <boolean> true or false
@@ -56,6 +58,13 @@ METHODS:
 
 :UnbindAction( <string> action (show/hide/close) , <string> inputType (began/ended) )
 >>> <boolean> true or false
+
+EVENTS:
+.Events.OnShow
+
+.Events.OnHide
+
+.Events.OnClose
 ```
 
 ## Component: Line
@@ -64,7 +73,6 @@ local newLine = KUI.Line.new( <string> name , <number> layoutIndex )
 ```
 ```lua
 METHODS:
-
 :SetEnabled( <boolean> statement (true/false) )
 >>> <object> Line
 
@@ -73,6 +81,13 @@ METHODS:
 
 :AddComponent( <object> component )
 >>> <object> Component
+
+EVENTS:
+.Events.OnEnable
+
+.Events.OnDisable
+
+.Events.OnChangeLineLayout
 ```
 
 ## Component: InputText
@@ -81,7 +96,6 @@ local newInputText = KUI.InputText.new( <string> placeholderText , <string> defa
 ```
 ```lua
 METHODS:
-
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> InputText
 
@@ -99,6 +113,13 @@ METHODS:
 
 :GetText()
 >>> <string> text
+
+EVENTS:
+.Events.OnFocused
+
+.Events.OnFocusLost
+
+.Events.OnChangeComponentLayout
 ```
 
 ## Component: Button
@@ -107,7 +128,6 @@ local exampleButton = KUI.Button.new( <string> defaultText , <number> textFontSi
 ```
 ```lua
 METHODS:
-
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> Button
 
@@ -116,6 +136,11 @@ METHODS:
 
 :SetText( <string> text )
 >>> <object> Button
+
+EVENTS:
+.Events.OnClick
+
+.Events.OnChangeComponentLayout
 ```
 
 ## Component: Label
@@ -124,7 +149,6 @@ local exampleLabel = KUI.Label.new( <string> defaultText , <number> textFontSize
 ```
 ```lua
 METHODS:
-
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> Label
 
@@ -136,4 +160,7 @@ METHODS:
 
 :SetText( <string> text )
 >>> <object> Label
+
+EVENTS:
+.Events.OnChangeComponentLayout
 ```
