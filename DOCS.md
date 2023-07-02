@@ -19,6 +19,8 @@ KUI.Init( <object> PlayerGui , <number> lineWidthInOffset , <number> blurSize  )
 local Window = KUI.Window.new( <string> name )
 ```
 ```lua
+METHODS:
+
 :GetCurrentPage()
 >>> <number> CurrentPage
 
@@ -61,6 +63,8 @@ local Window = KUI.Window.new( <string> name )
 local newLine = KUI.Line.new( <string> name , <number> layoutIndex )
 ```
 ```lua
+METHODS:
+
 :SetEnabled( <boolean> statement (true/false) )
 >>> <object> Line
 
@@ -76,6 +80,8 @@ local newLine = KUI.Line.new( <string> name , <number> layoutIndex )
 local newInputText = KUI.InputText.new( <string> placeholderText , <string> defaultText , <number> textFontSize , <boolean> editableText (true/false) )
 ```
 ```lua
+METHODS:
+
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> InputText
 
@@ -100,6 +106,8 @@ local newInputText = KUI.InputText.new( <string> placeholderText , <string> defa
 local exampleButton = KUI.Button.new( <string> defaultText , <number> textFontSize , <boolean> clickableButton (true/false) )
 ```
 ```lua
+METHODS:
+
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> Button
 
@@ -115,6 +123,8 @@ local exampleButton = KUI.Button.new( <string> defaultText , <number> textFontSi
 local exampleLabel = KUI.Label.new( <string> defaultText , <number> textFontSize )
 ```
 ```lua
+METHODS:
+
 :SetComponentLayout( <number> layoutIndex )
 >>> <object> Label
 
