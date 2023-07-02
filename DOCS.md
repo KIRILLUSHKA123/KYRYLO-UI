@@ -14,6 +14,7 @@ local KUI = require(ReplicatedStorage.KUI_Library)
 KUI.Init(LocalPlayer.PlayerGui,50,20)
 ```
 ```
-1 <object> PlayerGui
-2 <number> 
+1 | object | PlayerGui
+2 | number | Window size in offset
+3 | number | Blur size
 ```
