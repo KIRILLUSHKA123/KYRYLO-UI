@@ -13,13 +13,6 @@ local KUI = require(ReplicatedStorage.KUI_Library)
 ```lua
 KUI.Init( <object> PlayerGui , <number> ,20)
 ```
-```
-Parameters:
-
-1 | object | PlayerGui
-2 | number | Line width in offset
-3 | number | Blur size
-```
 
 ## Component: Window
 ```lua
