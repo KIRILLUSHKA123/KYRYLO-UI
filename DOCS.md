@@ -11,7 +11,7 @@ local KUI = require(ReplicatedStorage.KUI_Library)
 
 ## Init
 ```lua
-KUI.Init(LocalPlayer.PlayerGui,50,20)
+KUI.Init( <object> PlayerGui , <number> ,20)
 ```
 ```
 Parameters:
@@ -25,7 +25,7 @@ Parameters:
 ```lua
 local Window = KUI.Window.new( <string> name )
 ```
-```
+```lua
 :Show()
 >>> Window
 
