@@ -11,7 +11,7 @@ local KUI = require(ReplicatedStorage.KUI_Library)
 
 ## Init
 ```lua
-KUI.Init( <object> PlayerGui , <number> ,20)
+KUI.Init( <object> PlayerGui , <number> lineWidthInOffset , <number> blurSize  )
 ```
 
 ## Component: Window
