@@ -64,7 +64,7 @@ secondLine:AddComponent( changeNameButton )
 ```
 * Final! You create your first window with KYRYLO-UI!
 * ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/17f8209f-e45b-4f6d-953d-ad60d79f9075)
-
+* <a href="https://github.com/KYRYLO-UA/KYRYLO-UI/blob/main/DOCS.md">**Documentation**</a>
 
 ## Contributing
 * **Discord**: @kyrylo.
