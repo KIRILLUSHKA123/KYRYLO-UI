@@ -15,8 +15,7 @@
 ## Previews
 ![image](https://github.com/KIRILLUSHKA123/KYRYLO-UI/assets/60113306/22cfb44e-2763-41de-bee7-2b8530efdf34)
 
-## Documentation 
-* <a href="https://github.com/KYRYLO-UA/KYRYLO-UI/blob/main/DOCS.md">Link</a>
+## Documentation: <a href="https://github.com/KYRYLO-UA/KYRYLO-UI/blob/main/DOCS.md">link</a>
 
 ## Installation
 * **Download** <a href="https://github.com/KIRILLUSHKA123/KYRYLO-UI/edit/main/README.md">any release of KYRYLO-UI</a>
@@ -71,4 +70,3 @@ secondLine:AddComponent( changeNameButton )
 ## Contributing
 * **Discord**: @kyrylo.
 * **Email**: kirilljbicai@gmail.com
-
