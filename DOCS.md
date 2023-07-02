@@ -76,6 +76,4 @@ local newLine = KUI.Line.new( <string> name , <number> layoutIndex )
 
 :AddComponent( <object> component )
 >>> <object> Component
-
-
 ```
