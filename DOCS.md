@@ -14,7 +14,7 @@ local KUI = require(ReplicatedStorage.KUI_Library)
 KUI.Init(LocalPlayer.PlayerGui,50,20)
 ```
 ```
-Parameters:
+**Parameters:**
 1 | object | PlayerGui
 2 | number | Line width in offset
 3 | number | Blur size
@@ -25,10 +25,10 @@ Parameters:
 local Window = KUI.Window.new("Test1")
 ```
 ```
-Parameters:
+**Parameters:**
 1 | string | Name
 ```
 ```
-Methods:
+**Methods:**
 
 ```
