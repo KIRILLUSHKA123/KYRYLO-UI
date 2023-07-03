@@ -24,7 +24,7 @@ METHODS:
 >>> <number> CurrentPage
 
 :SetHeader( <string> title , <table> closeButtonInfo )
->>> <object> 
+>>> <object> Window
 
 :SetTitle( <string> newTitle )
 >>> <boolean> true or false
